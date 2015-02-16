@@ -2,14 +2,14 @@
 ##
 
 # Cluster name
-site_name: nflabsprod
+site_name: ats-cluster
 
 # IPv4 maximum transmission unit, 9216 is the maximum for Intel/Cisco hardware
 mtu: 9216
 
 #
-ip_range: 222.122.171.230-222.122.171.239
-#ip_range: 192.168.10.1-192.168.10.254
+#ip_range: 222.122.171.230-222.122.171.239
+ip_range: 192.168.139.123-192.168.139.123
 
 hadoop:
   dfs_datanode_data_dir: /data/hadoop

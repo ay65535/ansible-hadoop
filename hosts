@@ -2,47 +2,55 @@
 # ============
 
 [zookeepers]
-master.nflabs.com zookeeper_id=1
-master2.nflabs.com zookeeper_id=2
-pel.nflabs.com zookeeper_id=3
+#master.nflabs.com zookeeper_id=1
+#master2.nflabs.com zookeeper_id=2
+#pel.nflabs.com zookeeper_id=3
+ats-hadoop4.cs1cloud.internal
 
 # HADDOP DEPLOYMENT
 # =================
 
 [journalnodes]
-master.nflabs.com
-master2.nflabs.com
-pel.nflabs.com
+#master.nflabs.com
+#master2.nflabs.com
+#pel.nflabs.com
+ats-hadoop4.cs1cloud.internal
 
 [namenodes]
-master.nflabs.com
-master2.nflabs.com
+#master.nflabs.com
+#master2.nflabs.com
+ats-hadoop4.cs1cloud.internal
 
 [datanodes]
-data1.nflabs.com
-data2.nflabs.com
-data3.nflabs.com
+#data1.nflabs.com
+#data2.nflabs.com
+#data3.nflabs.com
+ats-hadoop4.cs1cloud.internal
 
 # ELASTICSEARCH
 # =============
 
 [elasticsearch]
-data1.nflabs.com
-data2.nflabs.com
-data3.nflabs.com
+#data1.nflabs.com
+#data2.nflabs.com
+#data3.nflabs.com
+ats-hadoop4.cs1cloud.internal
 
 # SPARK
 # =====
 [sparkworkers]
-data1.nflabs.com
-data2.nflabs.com
-data3.nflabs.com
+#data1.nflabs.com
+#data2.nflabs.com
+#data3.nflabs.com
+ats-hadoop4.cs1cloud.internal
 
 [sparkmasters]
-master.nflabs.com
-master2.nflabs.com
+#master.nflabs.com
+#master2.nflabs.com
+ats-hadoop4.cs1cloud.internal
 
 # Monitoring
 # ==========
 [monitor]
-monitor.nflabs.com
+#monitor.nflabs.com
+ats-hadoop4.cs1cloud.internal
